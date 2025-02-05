@@ -23,8 +23,8 @@ FHIRWorks is a browser extension that brings some features like visualizing FHIR
 1. Navigate to a webpage that contains a FHIR JSON resource.
 2. Click on the **FHIRWorks** extension icon in your toolbar.
 3. The extension will attempt to load the JSON resource from the current page.
-4. If successful, you can generate and copy a PlantUML diagram.
-5. The extension also provides an option to open the encoded PlantUML URL in a new tab.
+4. If successful, the PlantUML code is generated and copied to the clipboard
+5. The extension also opens a new tab with the diagram using the PlantUML server.
 
 ## Dependencies
 
