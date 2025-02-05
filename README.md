@@ -7,7 +7,7 @@ FHIRWorks is a browser extension that brings some features like visualizing FHIR
 * ...
 
 ### Upcoming
-* (ideas? Please check or add [issues](https://github.com/costateixeira/FHIRWorks/issues)
+* (ideas? Please check or add [issues](https://github.com/costateixeira/FHIRWorks/issues))
 
 
 ## Installation
