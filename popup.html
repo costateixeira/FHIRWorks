@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="pako.min.js"></script>
+    <script src="js-yaml.min.js"></script>
+    <script src="plantuml-encoder.js"></script>
+    <script src="popup.js"></script>
+    
+    <style>
+      /* Main Popup Style */
+      .popup {
+        padding: 20px; /* Padding inside the popup */
+        background-color: #fff; /* White background for a clean look */
+        border: 1px solid transparent; /* Transparent border */
+        border-radius: 8px; /* Rounded corners for a modern look */
+        min-width: 200px; /* Minimum width */
+        max-width: 600px; /* Maximum width */
+        min-height: 150px; /* Minimum height */
+        margin: 0 auto; /* Center it horizontally */
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box; /* Ensure padding is included in total width/height */
+        overflow: auto; /* Enable scrolling if content exceeds height */
+      }
+
+      /* Button Styles */
+      button {
+        height: 40px;
+        width: 110px;
+        margin: 20px;
+        padding: 7px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        background-color: #10897d; /* Bootstrap primary color */
+        border: none;
+        border-radius: 5px; /* Rounded button */
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #00473a; /* Darker blue on hover */
+      }
+
+      .input-file-trigger:hover {
+        background-color: #0e4a48; /* Darker green on hover */
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="popup">
+      <div>      
+        <button id="pumlbtn">PlantUML</button>
+      </div>
+    </div>
+
+    <!-- <div id="myModal" class="modal">
+      <div class="modal-content">
+        <select id="typeSelect">
+        </select>
+        <button id="okButton">OK</button>
+      </div>
+    </div> -->
+
+  </body>
+</html>
